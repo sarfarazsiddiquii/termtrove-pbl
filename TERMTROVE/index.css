@@ -1,0 +1,47 @@
+body {
+    background-color: #FBAB7E;
+    background-image:linear-gradient(90deg, #efd5ff 0%, #515ada 100%);;
+    
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px; 
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px; 
+}
+
+.app h1 {
+    text-align: center; 
+    margin-top: 100px; 
+}
+
+.app h3 {
+    text-align: center; 
+    margin-top: 50px; 
+    margin-left: 20px; 
+}
+
+.typing {
+    overflow: hidden; 
+    white-space: nowrap; 
+    border-right: 0.15em solid #000; 
+    animation: typing 3s steps(40) infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
